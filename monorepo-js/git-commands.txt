@@ -1,0 +1,21 @@
+git clone https://github.com/SafeEHA/monorepo.git
+git add .
+git commit -m "add empty backend directory"
+git push
+git branch
+git branch frontend-layout
+git checkout
+git checkout frontend-layout
+git add .
+git commit -m "chore: add components and containers directory to frontend"
+git add .
+git commit -m "add content dynamically to page via JavaScript"
+git branch
+git push origin frontend-layout
+git checkout main
+git merge frontend-layout
+git push
+git add .
+git commit -m "add index.html page"
+git push
+git checkout -b commands
